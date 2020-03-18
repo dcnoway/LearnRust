@@ -7,26 +7,6 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Cargo run",
-            "cargo": {
-                "args": [
-                    "run",
-                    "--bin=minigrep",
-                    "--package=minigrep",
-                    "ver",
-                    "Cargo.toml"
-                ],
-                "filter": {
-                    "name": "minigrep",
-                    "kind": "bin"
-                }
-            },
-            "args": [],
-            "cwd": "${workspaceFolder}"
-        },
-        {
-            "type": "lldb",
-            "request": "launch",
             "name": "Debug executable 'minigrep'",
             "cargo": {
                 "args": [
